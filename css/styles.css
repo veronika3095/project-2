@@ -219,8 +219,9 @@ padding-bottom: 20px;
     }
 
         .cont-abaut-me {
-
+        
         display: flex;
+        display: block;
         
         
     }
@@ -228,7 +229,7 @@ padding-bottom: 20px;
     .cont-me-to { 
         display: flex;
         /* flex-wrap: wrap; */
-
+        
         
     }
 
@@ -236,7 +237,7 @@ padding-bottom: 20px;
         border-radius: 16px;
             width: 336px;
             height: 392px;
-        padding: 408px 32px 32px 0;
+        padding: 408px 32px 20px 0;
     }
 
     .logo-abaut-me {
@@ -257,32 +258,29 @@ padding-bottom: 20px;
     .text-about-me {
         
         width: 336px;
-        padding-top: 32px;
+        padding-top: 0;
+        padding-bottom: 24px;
+        /* flex-wrap: wrap; */
+        /* padding: 0; */
+        
         
     }
 
         .bio {
-            flex: 1;
-            margin-right: 20px;
-            
-        }
-    
-         .education-role {
-            flex: 1;
             display: flex;
-            flex-direction: column;
-            
-            }
-        
-        .education {
-            margin-bottom: 20px;
+            flex: 1;
+            /* margin-right: 20px; */
             
         }
 
-        .abaut-me-text-logo { 
-            display: flex;
-           
-        }
+.abaut-me-text { 
+    padding-bottom: 16px;
+}
+    
+.cont-me-to-role { 
+    margin-left: 32px;
+}
+        
 }
 
 @media screen and (min-width:1280px) { 
