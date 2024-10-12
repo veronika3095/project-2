@@ -5,18 +5,6 @@ body {
 }
 
 
-
-ul {
-    /* list-style-type: none; */
-    padding-left: 20px;
-    margin: 0;
-}
-
-li::marker {
-    color: rgb(4, 159, 4);
-    
-}
-
 a {
     text-decoration: none;
 }
@@ -91,15 +79,16 @@ font-family: "Impact", sans-serif;
         color: #292929;
 }
 
-/* .cont-abaut-me {
-    display: flex;
-    flex-wrap: wrap;
+.about-me-ul {
+    /* list-style-type: none; */
+    padding-left: 20px;
+    margin: 0;
 }
 
-.cont-me-to { 
-    display: flex;
-    flex-wrap: wrap;
-} */
+.abaut-text-li::marker {
+    color: rgb(4, 159, 4);
+
+}
 
 @media screen and (max-width:360px) { 
 .container-abaut-me { 
@@ -266,12 +255,12 @@ padding-bottom: 20px;
         
     }
 
-        .bio {
-            display: flex;
-            flex: 1;
-            /* margin-right: 20px; */
+    .bio {
+        display: flex;
+        flex: 1;
+        /* margin-right: 20px; */
             
-        }
+    }
 
 .abaut-me-text { 
     padding-bottom: 16px;
@@ -283,6 +272,42 @@ padding-bottom: 20px;
         
 }
 
-@media screen and (min-width:1280px) { 
 
+@media screen and (min-width: 1280px) { 
+
+    .section-abaut-me {
+            margin: 0 auto;
+            padding: 0 32px 0 32px;
+        }
+    
+    .container-abaut-me {
+        width: 1280px;
+    
+    }
+
+    .images-abaut-me {
+        border-radius: 16px;
+        width: 384px;
+        height: 448px;
+        padding: 312px 136px 40px 240px;
+
+    }
+
+    .cont-me-to { 
+        padding-left: 240px;
+    }
+
+        .text-about-me { 
+            width: 488px;
+        
+        }
+
+        .abaut-me-text { 
+            width: 384px;
+                
+        }
+
+        .cont-me-to-role {
+            margin-left: 136px;
+        }
 }
